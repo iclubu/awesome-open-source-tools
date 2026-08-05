@@ -3,6 +3,20 @@ layout: default
 title: Awesome Open-Source Tools
 ---
 
+<style>
+  /* Fix header title and subtitle sizes */
+  .project-name {
+    font-size: 3rem !important;
+    margin-bottom: 0.1rem !important;
+  }
+  .project-tagline {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    opacity: 0.8 !important;
+    margin-top: 0 !important;
+  }
+</style>
+
 <input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
 
 {% assign categories = site.data.projects | group_by: "category" | sort: "name" %}
