@@ -57,3 +57,15 @@ title: Awesome Open-Source Tools
     });
   });
 </script>
+
+<footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; text-align: center; color: #57606a; font-size: 0.9rem;">
+  <p>
+    Have a suggestion for another awesome open-source tool?
+    <a href="https://github.com/iclubu/awesome-open-source-tools/issues" target="_blank" style="color: #2da44e; text-decoration: none; font-weight: 500;">
+      Submit it here →
+    </a>
+  </p>
+  <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+    Built with ❤️ on GitHub Pages
+  </p>
+</footer>
