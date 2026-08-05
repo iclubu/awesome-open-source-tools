@@ -1,0 +1,49 @@
+- name: yt-dlp
+  url: https://github.com/yt-dlp/yt-dlp
+  description: A powerful command-line audio/video downloader supporting thousands of sites.
+  license: Unlicense
+
+- name: Ollama
+  url: https://github.com/ollama/ollama
+  description: Run large language models locally with ease — like Docker for LLMs.
+  license: MIT
+
+- name: Fooocus
+  url: https://github.com/lllyasviel/Fooocus
+  description: Offline, open-source image generation that rethinks Stable Diffusion.
+  license: MIT
+
+- name: Whisper
+  url: https://github.com/openai/whisper
+  description: OpenAI's general-purpose speech recognition model for multilingual transcription.
+  license: MIT
+
+- name: Plausible
+  url: https://github.com/plausible/analytics
+  description: Lightweight, privacy-friendly alternative to Google Analytics.
+  license: MIT
+
+- name: AppFlowy
+  url: https://github.com/AppFlowy-IO/AppFlowy
+  description: AI-powered collaborative workspace — the open-source Notion alternative.
+  license: MIT
+
+- name: Penpot
+  url: https://github.com/penpot/penpot
+  description: Open-source design and prototyping platform — the Figma alternative.
+  license: MIT
+
+- name: n8n
+  url: https://github.com/n8n-io/n8n
+  description: Fair-code workflow automation with native AI capabilities and 1500+ integrations.
+  license: Sustainable Use License
+
+- name: cal.diy
+  url: https://github.com/calcom/diy
+  description: Fully open-source scheduling platform — the Calendly alternative.
+  license: MIT
+
+- name: Bitwarden
+  url: https://github.com/bitwarden/server
+  description: Open-source password manager for securely storing and managing credentials.
+  license: GPL-3.0
