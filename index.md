@@ -41,6 +41,12 @@ title: Awesome Open-Source Tools
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   }
 
+  /* Force card text to use the dynamic color */
+  .project-card h3,
+  .project-card p {
+    color: var(--text-color);
+  }
+
   .project-card:hover {
     box-shadow: 0 8px 24px var(--shadow-color);
   }
