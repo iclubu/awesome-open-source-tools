@@ -19,6 +19,12 @@ title: Awesome Open-Source Tools
 
 <input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
 
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <span style="display: inline-block; background: #2da44e; color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 500;">
+    ⭐ {{ site.data.projects | size }} awesome tools
+  </span>
+</div>
+
 {% assign categories = site.data.projects | group_by: "category" | sort: "name" %}
 
 {% for category in categories %}
