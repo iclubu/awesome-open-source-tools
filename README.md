@@ -12,18 +12,27 @@ A curated list of useful open-source projects for developers, creators, and priv
 
 ## 📋 The List
 
-| Project | Description | License |
-| :--- | :--- | :--- |
-| **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** | A powerful command-line audio/video downloader supporting thousands of sites. | Unlicense |
-| **[Ollama](https://github.com/ollama/ollama)** | Run large language models locally with ease — like Docker for LLMs. | MIT |
-| **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT |
-| **[Whisper](https://github.com/openai/whisper)** | OpenAI's general-purpose speech recognition model for multilingual transcription. | MIT |
-| **[Plausible](https://github.com/plausible/analytics)** | Lightweight, privacy-friendly alternative to Google Analytics. | MIT |
-| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. | MIT |
-| **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. | MIT |
-| **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License |
-| **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. | MIT |
-| **[Bitwarden](https://github.com/bitwarden/server)** | Open-source password manager for securely storing and managing credentials. | GPL-3.0 |
+| Project | Description | License | Category |
+| :--- | :--- | :--- | :--- |
+| **[Ollama](https://github.com/ollama/ollama)** | Run large language models locally with ease — like Docker for LLMs. | MIT | AI & LLMs |
+| **[Whisper](https://github.com/openai/whisper)** | OpenAI's general-purpose speech recognition model for multilingual transcription. | MIT | AI & LLMs |
+| **[OpenCode](https://github.com/opencode-org/opencode)** | The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers. | MIT | AI & LLMs |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | The leading framework for building LLM-powered applications with chains, agents, and RAG capabilities. | MIT | AI & LLMs |
+| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | Autonomous AI agents that break down complex goals into executable tasks without human intervention. | MIT | AI & LLMs |
+| **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** | A powerful command-line audio/video downloader supporting thousands of sites. | Unlicense | Developer Tools |
+| **[Visual Studio Code](https://github.com/microsoft/vscode)** | The world's most popular open-source code editor with built-in Git, debugging, and a massive extension ecosystem. | MIT | Developer Tools |
+| **[Next.js](https://github.com/vercel/next.js)** | The most popular React framework for production with server-side rendering and static site generation. | MIT | Developer Tools |
+| **[Docker](https://github.com/moby/moby)** | The open-source containerization engine that revolutionized how we build, ship, and run applications. | Apache-2.0 | Developer Tools |
+| **[Kubernetes](https://github.com/kubernetes/kubernetes)** | Industry-standard container orchestration platform originally built by Google, now CNCF-hosted. | Apache-2.0 | Developer Tools |
+| **[Plausible](https://github.com/plausible/analytics)** | Lightweight, privacy-friendly alternative to Google Analytics. | MIT | Data & Analytics |
+| **[Elasticsearch](https://github.com/elastic/elasticsearch)** | Distributed RESTful search and analytics engine powering log analysis, full-text search, and more. | Elastic License 2.0 | Data & Analytics |
+| **[PostgreSQL](https://github.com/postgres/postgres)** | The world's most advanced open-source relational database — the foundation for countless applications. | PostgreSQL License | Data & Analytics |
+| **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT | Design & Creativity |
+| **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. | MIT | Design & Creativity |
+| **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License | Workflow & Automation |
+| **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. | MIT | Workflow & Automation |
+| **[Bitwarden](https://github.com/bitwarden/server)** | Open-source password manager for securely storing and managing credentials. | GPL-3.0 | Security & Privacy |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. | MIT | Productivity & Collaboration |
 
 ---
 
@@ -39,7 +48,7 @@ This repository serves as a personal collection of open-source tools that I find
 
 ## 🛠️ How to Use This List
 
-1. Browse the table above or visit the [live site](https://iclubu.github.io/awesome-open-source-tools/) for a more visual experience with search functionality.
+1. Browse the table above or visit the [live site](https://iclubu.github.io/awesome-open-source-tools/) for a more visual experience with **search functionality** and **category grouping**.
 2. Click on any project name to visit its GitHub repository.
 3. Check the license to ensure it fits your use case.
 
