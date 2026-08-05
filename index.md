@@ -1,3 +1,5 @@
+<input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
+
 ---
 layout: default
 title: Awesome Open-Source Tools
