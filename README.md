@@ -10,6 +10,19 @@ A curated list of useful open-source projects for developers, creators, and priv
 
 ---
 
+## ✨ Features
+
+The live site includes several interactive features to make browsing easy and enjoyable:
+
+- **🌙 Dark Mode Toggle** — Switch between light and dark themes with a single click (your preference is saved automatically)
+- **🔍 Live Search** — Filter tools in real-time as you type
+- **📂 Categorized Layout** — Browse tools organized by category (AI, Developer Tools, Security, etc.)
+- **🔗 Shareable Category Links** — Click the link icon next to any category to get a direct URL to that section
+- **⬆️ Back to Top Button** — A floating button that smoothly scrolls you back to the top
+- **⭐ Project Count** — See exactly how many tools are in the collection at a glance
+
+---
+
 ## 📋 The List
 
 | Project | Description | License | Category |
@@ -48,7 +61,7 @@ This repository serves as a personal collection of open-source tools that I find
 
 ## 🛠️ How to Use This List
 
-1. Browse the table above or visit the [live site](https://iclubu.github.io/awesome-open-source-tools/) for a more visual experience with **search functionality** and **category grouping**.
+1. Browse the table above or visit the [live site](https://iclubu.github.io/awesome-open-source-tools/) for a more visual experience with **search functionality**, **dark mode**, and **category grouping**.
 2. Click on any project name to visit its GitHub repository.
 3. Check the license to ensure it fits your use case.
 
