@@ -4,6 +4,70 @@ title: Awesome Open-Source Tools
 ---
 
 <style>
+  /* ===== CSS Variables for Light/Dark Mode ===== */
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #24292f;
+    --card-bg: #f6f8fa;
+    --card-border: #d0d7de;
+    --footer-color: #57606a;
+    --input-border: #d0d7de;
+    --header-border: #d0d7de;
+    --shadow-color: rgba(0,0,0,0.1);
+  }
+
+  /* Dark Mode Variables */
+  body.dark-mode {
+    --bg-color: #0d1117;
+    --text-color: #c9d1d9;
+    --card-bg: #161b22;
+    --card-border: #30363d;
+    --footer-color: #8b949e;
+    --input-border: #30363d;
+    --header-border: #30363d;
+    --shadow-color: rgba(0,0,0,0.4);
+  }
+
+  /* Apply variables to elements */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .project-card {
+    background: var(--card-bg);
+    border-color: var(--card-border);
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 8px 24px var(--shadow-color);
+  }
+
+  footer {
+    border-top-color: var(--card-border) !important;
+    color: var(--footer-color) !important;
+  }
+
+  #searchInput {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-color: var(--input-border) !important;
+  }
+
+  .category-header {
+    border-bottom-color: var(--card-border) !important;
+  }
+
+  .anchor-link {
+    color: var(--footer-color) !important;
+  }
+
+  .anchor-link:hover {
+    color: #2da44e !important;
+  }
+
   /* Fix header title and subtitle sizes */
   .project-name {
     font-size: 3rem !important;
@@ -77,7 +141,63 @@ title: Awesome Open-Source Tools
     color: #2da44e;
     opacity: 1;
   }
+
+  /* ===== Dark Mode Toggle Switch ===== */
+  .theme-toggle-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--footer-color);
+  }
+
+  .toggle-switch {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    background: #d0d7de;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  body.dark-mode .toggle-switch {
+    background: #30363d;
+  }
+
+  .toggle-switch::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  body.dark-mode .toggle-switch::after {
+    transform: translateX(24px);
+    background: #f0f6fc;
+  }
+
+  .theme-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+  }
 </style>
+
+<!-- ===== Dark Mode Toggle ===== -->
+<div class="theme-toggle-wrapper">
+  <span class="theme-icon">☀️</span>
+  <div class="toggle-switch" id="themeToggle" role="button" aria-label="Toggle dark mode"></div>
+  <span class="theme-icon">🌙</span>
+</div>
 
 <input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
 
@@ -127,8 +247,27 @@ title: Awesome Open-Source Tools
     const searchInput = document.getElementById('searchInput');
     const cards = document.querySelectorAll('.project-card');
     const backToTopBtn = document.getElementById('backToTopBtn');
+    const themeToggle = document.getElementById('themeToggle');
 
-    // Search functionality
+    // === Dark Mode Toggle ===
+    // Check for saved preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+
+    // Toggle on click
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      // Save preference
+      if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('theme', 'dark');
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+    // === Search functionality ===
     searchInput.addEventListener('keyup', function() {
       const query = this.value.toLowerCase();
       cards.forEach(card => {
@@ -137,7 +276,7 @@ title: Awesome Open-Source Tools
       });
     });
 
-    // Back to Top functionality
+    // === Back to Top functionality ===
     window.addEventListener('scroll', function() {
       if (window.scrollY > 300) {
         backToTopBtn.classList.add('show');
