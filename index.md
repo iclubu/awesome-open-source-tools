@@ -47,6 +47,36 @@ title: Awesome Open-Source Tools
     background: #1c7e3a;
     transform: scale(1.1);
   }
+
+  /* Clickable Category Link Styles */
+  .category-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d0d7de;
+    padding-bottom: 0.5rem;
+  }
+
+  .category-header h2 {
+    margin: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .anchor-link {
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+    opacity: 0.5;
+  }
+
+  .anchor-link:hover {
+    color: #2da44e;
+    opacity: 1;
+  }
 </style>
 
 <input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
@@ -60,9 +90,11 @@ title: Awesome Open-Source Tools
 {% assign categories = site.data.projects | group_by: "category" | sort: "name" %}
 
 {% for category in categories %}
-  <h2 style="margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #d0d7de; padding-bottom: 0.5rem;">
-    {{ category.name }}
-  </h2>
+  {% assign category_id = category.name | slugify %}
+  <div class="category-header">
+    <h2 id="{{ category_id }}">{{ category.name }}</h2>
+    <a href="#{{ category_id }}" class="anchor-link" title="Copy link to this category">🔗</a>
+  </div>
   <div class="projects-grid">
     {% for project in category.items %}
       <div class="project-card">
