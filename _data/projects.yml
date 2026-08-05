@@ -47,3 +47,48 @@
   url: https://github.com/bitwarden/server
   description: Open-source password manager for securely storing and managing credentials.
   license: GPL-3.0
+
+- name: OpenCode
+  url: https://github.com/opencode-org/opencode
+  description: The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers.
+  license: MIT
+
+- name: LangChain
+  url: https://github.com/langchain-ai/langchain
+  description: The leading framework for building LLM-powered applications with chains, agents, and RAG capabilities.
+  license: MIT
+
+- name: AutoGPT
+  url: https://github.com/Significant-Gravitas/AutoGPT
+  description: Autonomous AI agents that break down complex goals into executable tasks without human intervention.
+  license: MIT
+
+- name: Visual Studio Code
+  url: https://github.com/microsoft/vscode
+  description: The world's most popular open-source code editor with built-in Git, debugging, and a massive extension ecosystem.
+  license: MIT
+
+- name: Docker
+  url: https://github.com/moby/moby
+  description: The open-source containerization engine that revolutionized how we build, ship, and run applications.
+  license: Apache-2.0
+
+- name: Kubernetes
+  url: https://github.com/kubernetes/kubernetes
+  description: Industry-standard container orchestration platform originally built by Google, now CNCF-hosted.
+  license: Apache-2.0
+
+- name: Next.js
+  url: https://github.com/vercel/next.js
+  description: The most popular React framework for production with server-side rendering and static site generation.
+  license: MIT
+
+- name: Elasticsearch
+  url: https://github.com/elastic/elasticsearch
+  description: Distributed RESTful search and analytics engine powering log analysis, full-text search, and more.
+  license: Elastic License 2.0
+
+- name: PostgreSQL
+  url: https://github.com/postgres/postgres
+  description: The world's most advanced open-source relational database — the foundation for countless applications.
+  license: PostgreSQL License
