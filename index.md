@@ -15,6 +15,38 @@ title: Awesome Open-Source Tools
     opacity: 0.8 !important;
     margin-top: 0 !important;
   }
+
+  /* Back to Top Button Styles */
+  #backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background: #2da44e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+  }
+
+  #backToTopBtn.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  #backToTopBtn:hover {
+    background: #1c7e3a;
+    transform: scale(1.1);
+  }
 </style>
 
 <input type="text" id="searchInput" placeholder="🔍 Search for a tool..." style="width:100%; padding:12px; font-size:16px; border:1px solid #d0d7de; border-radius:6px; margin-bottom:1.5rem;">
@@ -43,21 +75,6 @@ title: Awesome Open-Source Tools
   </div>
 {% endfor %}
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('searchInput');
-    const cards = document.querySelectorAll('.project-card');
-
-    searchInput.addEventListener('keyup', function() {
-      const query = this.value.toLowerCase();
-      cards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(query) ? '' : 'none';
-      });
-    });
-  });
-</script>
-
 <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; text-align: center; color: #57606a; font-size: 0.9rem;">
   <p>
     Have a suggestion for another awesome open-source tool?
@@ -69,3 +86,39 @@ title: Awesome Open-Source Tools
     Built with ❤️ on GitHub Pages
   </p>
 </footer>
+
+<!-- Back to Top Button HTML -->
+<button id="backToTopBtn" title="Back to top">↑</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.project-card');
+    const backToTopBtn = document.getElementById('backToTopBtn');
+
+    // Search functionality
+    searchInput.addEventListener('keyup', function() {
+      const query = this.value.toLowerCase();
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(query) ? '' : 'none';
+      });
+    });
+
+    // Back to Top functionality
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    backToTopBtn.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
