@@ -18,3 +18,19 @@ A curated list of useful open-source projects for developers, creators, and priv
     </div>
   {% endfor %}
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.project-card');
+
+    searchInput.addEventListener('keyup', function() {
+      const query = this.value.toLowerCase();
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(query) ? '' : 'none';
+      });
+    });
+  });
+</script>
