@@ -92,7 +92,7 @@
   license: MIT
   category: Design & Creativity
 
-  - name: Upscayl
+- name: Upscayl
   url: https://github.com/upscayl/upscayl
   description: Free and open-source AI image upscaler that enhances low-resolution images without losing quality.
   license: AGPL-3.0
