@@ -98,6 +98,19 @@
   license: AGPL-3.0
   category: Design & Creativity
 
+# 📄 Spec-Driven Development
+- name: GitHub Spec Kit
+  url: https://github.com/github/spec-kit
+  description: GitHub's open-source toolkit for Spec-Driven Development — define what to build before building it with any AI coding agent.
+  license: MIT
+  category: Spec-Driven Development
+
+- name: Awesome OpenSpec
+  url: https://github.com/speclib/awesome-openspec
+  description: A curated list of awesome OpenSpec resources, tools, and Spec-Driven Development (SDD) resources for AI coding assistants.
+  license: MIT
+  category: Spec-Driven Development
+
 # ⚙️ Workflow & Automation
 - name: n8n
   url: https://github.com/n8n-io/n8n
