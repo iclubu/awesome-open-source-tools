@@ -42,6 +42,7 @@ The live site includes several interactive features to make browsing easy and en
 | **[PostgreSQL](https://github.com/postgres/postgres)** | The world's most advanced open-source relational database — the foundation for countless applications. | PostgreSQL License | Data & Analytics |
 | **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT | Design & Creativity |
 | **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. | MIT | Design & Creativity |
+| **[Upscayl](https://github.com/upscayl/upscayl)** | Free and open-source AI image upscaler that enhances low-resolution images without losing quality. | AGPL-3.0 | Design & Creativity |
 | **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License | Workflow & Automation |
 | **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. | MIT | Workflow & Automation |
 | **[Bitwarden](https://github.com/bitwarden/server)** | Open-source password manager for securely storing and managing credentials. | GPL-3.0 | Security & Privacy |
