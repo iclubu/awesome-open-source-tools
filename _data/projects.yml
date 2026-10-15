@@ -12,7 +12,8 @@
   category: AI & LLMs
 
 - name: OpenCode
-  url: https://github.com/opencode-org/opencode
+  # Fixed: previously opencode-org/opencode. anomalyco/opencode is the repo the project's own README points to.
+  url: https://github.com/anomalyco/opencode
   description: The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers.
   license: MIT
   category: AI & LLMs
@@ -28,6 +29,14 @@
   description: Autonomous AI agents that break down complex goals into executable tasks without human intervention.
   license: MIT
   category: AI & LLMs
+
+- name: FreeLLMAPI
+  url: https://github.com/tashfeenahmed/freellmapi
+  description: One OpenAI-compatible endpoint that routes across many free LLM provider tiers, with automatic failover when one runs out.
+  license: MIT
+  category: AI & LLMs
+  replaces: Paid LLM API usage (partly)
+  note: "Meant for personal projects and experimentation, not for bundling into a product you ship. Does not include Anthropic models."
 
 # 💻 Developer Frameworks & Tools
 - name: yt-dlp
@@ -66,18 +75,28 @@
   description: Lightweight, privacy-friendly alternative to Google Analytics.
   license: MIT
   category: Data & Analytics
+  replaces: Google Analytics
 
 - name: Elasticsearch
   url: https://github.com/elastic/elasticsearch
   description: Distributed RESTful search and analytics engine powering log analysis, full-text search, and more.
   license: Elastic License 2.0
   category: Data & Analytics
+  note: Source-available licence (not OSI-approved open source).
 
 - name: PostgreSQL
   url: https://github.com/postgres/postgres
   description: The world's most advanced open-source relational database — the foundation for countless applications.
   license: PostgreSQL License
   category: Data & Analytics
+
+- name: Scrapling
+  url: https://github.com/D4Vinci/Scrapling
+  description: Adaptive Python web-scraping framework with stealth fetchers and a built-in MCP server for feeding web data to AI agents.
+  license: BSD-3-Clause
+  category: Data & Analytics
+  replaces: Firecrawl
+  note: Includes anti-bot bypass features. Respect each site's terms and robots.txt.
 
 # 🎨 Design & Creativity
 - name: Fooocus
@@ -91,12 +110,31 @@
   description: Open-source design and prototyping platform — the Figma alternative.
   license: MIT
   category: Design & Creativity
+  replaces: Figma
 
 - name: Upscayl
   url: https://github.com/upscayl/upscayl
   description: Free and open-source AI image upscaler that enhances low-resolution images without losing quality.
   license: AGPL-3.0
   category: Design & Creativity
+
+# 🎙️ Audio & Voice
+- name: FluidVoice
+  url: https://github.com/altic-dev/FluidVoice
+  description: Free, private voice dictation for macOS that runs on-device, with a newer meeting-notes feature.
+  license: GPL-3.0
+  category: Audio & Voice
+  replaces: Granola, Wispr Flow
+  note: macOS only. The optional AI-enhancement model is closed source.
+
+# VERIFY before publishing: several copies of this project exist. Confirm this is the original repo and its license.
+- name: OmniVoice Studio
+  url: https://github.com/debpalash/OmniVoice-Studio
+  description: Local voice cloning, voice design, video dubbing and audiobooks in 646 languages, with no API keys.
+  license: AGPL-3.0
+  category: Audio & Voice
+  replaces: ElevenLabs
+  note: In active beta.
 
 # 📄 Spec-Driven Development
 - name: GitHub Spec Kit
@@ -117,12 +155,14 @@
   description: Fair-code workflow automation with native AI capabilities and 1500+ integrations.
   license: Sustainable Use License
   category: Workflow & Automation
+  note: Fair-code, source-available licence (not OSI-approved open source).
 
 - name: cal.diy
   url: https://github.com/calcom/diy
   description: Fully open-source scheduling platform — the Calendly alternative.
   license: MIT
   category: Workflow & Automation
+  replaces: Calendly
 
 # 🔐 Security & Privacy
 - name: Bitwarden
@@ -137,3 +177,26 @@
   description: AI-powered collaborative workspace — the open-source Notion alternative.
   license: MIT
   category: Productivity & Collaboration
+  replaces: Notion
+
+- name: Paperclip
+  url: https://github.com/paperclipai/paperclip
+  description: Open-source orchestration for teams of AI agents — org charts, budgets, tickets and governance for humans and agents working together.
+  license: MIT
+  category: Productivity & Collaboration
+  replaces: Jira
+
+- name: Basic Memory
+  url: https://github.com/basicmachines-co/basic-memory
+  description: Local-first memory for AI agents, stored as plain Markdown files you own, with wiki links, search and MCP access.
+  license: AGPL-3.0
+  category: Productivity & Collaboration
+  replaces: Notion (as agent memory)
+
+- name: Buzz
+  url: https://github.com/block/buzz
+  description: Self-hostable team chat from Block where AI agents are full members alongside people, with Git hosting built in.
+  license: Apache-2.0
+  category: Productivity & Collaboration
+  replaces: Slack
+  note: Early-stage; mobile clients were reported unfinished at launch.
