@@ -26,29 +26,36 @@ The live site includes several interactive features to make browsing easy and en
 ## 📋 The List
 
 | Project | Description | License | Category |
-| :--- | :--- | :--- | :--- |
+| --- | --- | --- | --- |
 | **[Ollama](https://github.com/ollama/ollama)** | Run large language models locally with ease — like Docker for LLMs. | MIT | AI & LLMs |
 | **[Whisper](https://github.com/openai/whisper)** | OpenAI's general-purpose speech recognition model for multilingual transcription. | MIT | AI & LLMs |
-| **[OpenCode](https://github.com/opencode-org/opencode)** | The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers. | MIT | AI & LLMs |
+| **[OpenCode](https://github.com/anomalyco/opencode)** | The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers. | MIT | AI & LLMs |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | The leading framework for building LLM-powered applications with chains, agents, and RAG capabilities. | MIT | AI & LLMs |
 | **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | Autonomous AI agents that break down complex goals into executable tasks without human intervention. | MIT | AI & LLMs |
+| **[FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi)** | One OpenAI-compatible endpoint that routes across many free LLM provider tiers, with automatic failover when one runs out. *Replaces: Paid LLM API usage (partly).* | MIT | AI & LLMs |
 | **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** | A powerful command-line audio/video downloader supporting thousands of sites. | Unlicense | Developer Tools |
 | **[Visual Studio Code](https://github.com/microsoft/vscode)** | The world's most popular open-source code editor with built-in Git, debugging, and a massive extension ecosystem. | MIT | Developer Tools |
 | **[Next.js](https://github.com/vercel/next.js)** | The most popular React framework for production with server-side rendering and static site generation. | MIT | Developer Tools |
 | **[Docker](https://github.com/moby/moby)** | The open-source containerization engine that revolutionized how we build, ship, and run applications. | Apache-2.0 | Developer Tools |
 | **[Kubernetes](https://github.com/kubernetes/kubernetes)** | Industry-standard container orchestration platform originally built by Google, now CNCF-hosted. | Apache-2.0 | Developer Tools |
-| **[Plausible](https://github.com/plausible/analytics)** | Lightweight, privacy-friendly alternative to Google Analytics. | MIT | Data & Analytics |
+| **[Plausible](https://github.com/plausible/analytics)** | Lightweight, privacy-friendly alternative to Google Analytics. *Replaces: Google Analytics.* | MIT | Data & Analytics |
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | Distributed RESTful search and analytics engine powering log analysis, full-text search, and more. | Elastic License 2.0 | Data & Analytics |
 | **[PostgreSQL](https://github.com/postgres/postgres)** | The world's most advanced open-source relational database — the foundation for countless applications. | PostgreSQL License | Data & Analytics |
+| **[Scrapling](https://github.com/D4Vinci/Scrapling)** | Adaptive Python web-scraping framework with stealth fetchers and a built-in MCP server for feeding web data to AI agents. *Replaces: Firecrawl.* | BSD-3-Clause | Data & Analytics |
 | **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT | Design & Creativity |
-| **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. | MIT | Design & Creativity |
+| **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. *Replaces: Figma.* | MIT | Design & Creativity |
 | **[Upscayl](https://github.com/upscayl/upscayl)** | Free and open-source AI image upscaler that enhances low-resolution images without losing quality. | AGPL-3.0 | Design & Creativity |
+| **[FluidVoice](https://github.com/altic-dev/FluidVoice)** | Free, private voice dictation for macOS that runs on-device, with a newer meeting-notes feature. *Replaces: Granola, Wispr Flow.* | GPL-3.0 | Audio & Voice |
+| **[OmniVoice Studio](https://github.com/debpalash/OmniVoice-Studio)** | Local voice cloning, voice design, video dubbing and audiobooks in 646 languages, with no API keys. *Replaces: ElevenLabs.* | AGPL-3.0 | Audio & Voice |
 | **[GitHub Spec Kit](https://github.com/github/spec-kit)** | GitHub's open-source toolkit for Spec-Driven Development — define what to build before building it with any AI coding agent. | MIT | Spec-Driven Development |
 | **[Awesome OpenSpec](https://github.com/speclib/awesome-openspec)** | A curated list of awesome OpenSpec resources, tools, and Spec-Driven Development (SDD) resources for AI coding assistants. | MIT | Spec-Driven Development |
 | **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License | Workflow & Automation |
-| **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. | MIT | Workflow & Automation |
+| **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. *Replaces: Calendly.* | MIT | Workflow & Automation |
 | **[Bitwarden](https://github.com/bitwarden/server)** | Open-source password manager for securely storing and managing credentials. | GPL-3.0 | Security & Privacy |
-| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. | MIT | Productivity & Collaboration |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. *Replaces: Notion.* | MIT | Productivity & Collaboration |
+| **[Paperclip](https://github.com/paperclipai/paperclip)** | Open-source orchestration for teams of AI agents — org charts, budgets, tickets and governance for humans and agents working together. *Replaces: Jira.* | MIT | Productivity & Collaboration |
+| **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** | Local-first memory for AI agents, stored as plain Markdown files you own, with wiki links, search and MCP access. *Replaces: Notion (as agent memory).* | AGPL-3.0 | Productivity & Collaboration |
+| **[Buzz](https://github.com/block/buzz)** | Self-hostable team chat from Block where AI agents are full members alongside people, with Git hosting built in. *Replaces: Slack.* | Apache-2.0 | Productivity & Collaboration |
 
 ---
 
