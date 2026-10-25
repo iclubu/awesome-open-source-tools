@@ -215,6 +215,13 @@ title: Awesome Open-Source Tools
 
 {% assign categories = site.data.projects | group_by: "category" | sort: "name" %}
 
+<div style="text-align: center; margin-bottom: 2rem;">
+  <strong>Browse by category:</strong><br>
+  {% for category in categories %}
+    <a href="#{{ category.name | slugify }}" style="display: inline-block; margin: 4px 10px;">{{ category.name }} ({{ category.items | size }})</a>
+  {% endfor %}
+</div>
+
 {% for category in categories %}
   {% assign category_id = category.name | slugify %}
   <div class="category-header">
@@ -227,6 +234,7 @@ title: Awesome Open-Source Tools
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
         <p><strong>License:</strong> {{ project.license }}</p>
+        {% if project.updated %}<p style="font-size: 0.85rem; color: var(--footer-color);">Updated: {{ project.updated | date: "%b %-d, %Y" }}</p>{% endif %}
         <a href="{{ project.url }}" target="_blank" class="btn">View on GitHub →</a>
       </div>
     {% endfor %}
