@@ -42,20 +42,26 @@ The live site includes several interactive features to make browsing easy and en
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | Distributed RESTful search and analytics engine powering log analysis, full-text search, and more. | Elastic License 2.0 | Data & Analytics |
 | **[PostgreSQL](https://github.com/postgres/postgres)** | The world's most advanced open-source relational database — the foundation for countless applications. | PostgreSQL License | Data & Analytics |
 | **[Scrapling](https://github.com/D4Vinci/Scrapling)** | Adaptive Python web-scraping framework with stealth fetchers and a built-in MCP server for feeding web data to AI agents. *Replaces: Firecrawl.* | BSD-3-Clause | Data & Analytics |
+| **[OpenSEO](https://github.com/TahaHachana/OpenSEO)** | Open source SEO tool for rank tracking, backlinks and site audits. *Replaces: Semrush.* | Not stated | Data & Analytics |
 | **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT | Design & Creativity |
 | **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. *Replaces: Figma.* | MIT | Design & Creativity |
 | **[Upscayl](https://github.com/upscayl/upscayl)** | Free and open-source AI image upscaler that enhances low-resolution images without losing quality. | AGPL-3.0 | Design & Creativity |
+| **[Open Higgsfield](https://github.com/wide-trace/open-higgsfield)** | A studio for image and video generation — one prompt bar, each model's own settings, and every finished run in one gallery. *Replaces: Higgsfield.* | Not stated | Design & Creativity |
+| **[Cap](https://github.com/CapSoftware/Cap)** | Open source Loom alternative. Beautiful, shareable screen recordings. *Replaces: Loom.* | AGPL-3.0 | Design & Creativity |
 | **[FluidVoice](https://github.com/altic-dev/FluidVoice)** | Free, private voice dictation for macOS that runs on-device, with a newer meeting-notes feature. *Replaces: Granola, Wispr Flow.* | GPL-3.0 | Audio & Voice |
-| **[OmniVoice Studio](https://github.com/debpalash/OmniVoice-Studio)** | Local voice cloning, voice design, video dubbing and audiobooks in 646 languages, with no API keys. *Replaces: ElevenLabs.* | AGPL-3.0 | Audio & Voice |
+| **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages. *Replaces: ElevenLabs.* | AGPL-3.0 | Audio & Voice |
+| **[OpenWhispr](https://github.com/OpenWhispr/openwhispr)** | Voice-to-text dictation app with local and cloud models. Privacy-first and cross-platform. *Replaces: Wispr Flow.* | MIT | Audio & Voice |
 | **[GitHub Spec Kit](https://github.com/github/spec-kit)** | GitHub's open-source toolkit for Spec-Driven Development — define what to build before building it with any AI coding agent. | MIT | Spec-Driven Development |
 | **[Awesome OpenSpec](https://github.com/speclib/awesome-openspec)** | A curated list of awesome OpenSpec resources, tools, and Spec-Driven Development (SDD) resources for AI coding assistants. | MIT | Spec-Driven Development |
 | **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License | Workflow & Automation |
-| **[cal.diy](https://github.com/calcom/diy)** | Fully open-source scheduling platform — the Calendly alternative. *Replaces: Calendly.* | MIT | Workflow & Automation |
+| **[Cal.com](https://github.com/calcom/cal.com)** | Scheduling infrastructure for absolutely everyone. *Replaces: Calendly.* | MIT | Workflow & Automation |
 | **[Bitwarden](https://github.com/bitwarden/server)** | Open-source password manager for securely storing and managing credentials. | GPL-3.0 | Security & Privacy |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. *Replaces: Notion.* | MIT | Productivity & Collaboration |
 | **[Paperclip](https://github.com/paperclipai/paperclip)** | Open-source orchestration for teams of AI agents — org charts, budgets, tickets and governance for humans and agents working together. *Replaces: Jira.* | MIT | Productivity & Collaboration |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** | Local-first memory for AI agents, stored as plain Markdown files you own, with wiki links, search and MCP access. *Replaces: Notion (as agent memory).* | AGPL-3.0 | Productivity & Collaboration |
 | **[Buzz](https://github.com/block/buzz)** | Self-hostable team chat from Block where AI agents are full members alongside people, with Git hosting built in. *Replaces: Slack.* | Apache-2.0 | Productivity & Collaboration |
+| **[OpenProject](https://github.com/opf/openproject)** | Leading open source project management software with agile planning, issue tracking, roadmaps, Gantt charts and time tracking. *Replaces: Asana.* | GPL-3.0 | Productivity & Collaboration |
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Open-source live-chat, email support and omni-channel desk. *Replaces: Intercom.* | MIT | Productivity & Collaboration |
 
 ---
 
