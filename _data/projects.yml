@@ -38,6 +38,14 @@
   replaces: Paid LLM API usage (partly)
   note: "Meant for personal projects and experimentation, not for bundling into a product you ship. Does not include Anthropic models."
 
+- name: Open WebUI
+  url: https://github.com/open-webui/open-webui
+  description: User-friendly AI chat interface that plugs into Ollama and OpenAI-compatible APIs.
+  license: Custom Open WebUI License
+  category: AI & LLMs
+  replaces: ChatGPT web UI (self-hosted)
+  note: Source-available under its own license, not OSI-approved open source.
+
 # 💻 Developer Frameworks & Tools
 - name: yt-dlp
   url: https://github.com/yt-dlp/yt-dlp
@@ -68,6 +76,19 @@
   description: Industry-standard container orchestration platform originally built by Google, now CNCF-hosted.
   license: Apache-2.0
   category: Developer Tools
+
+- name: LazyGit
+  url: https://github.com/jesseduffield/lazygit
+  description: Simple terminal UI for git commands.
+  license: MIT
+  category: Developer Tools
+
+- name: REA
+  url: https://github.com/morluto/rea
+  description: Reverse engineer anything with agents, from app behavior down to native binaries.
+  license: MIT
+  category: Developer Tools
+  replaces: manual Ghidra/IDA workflows
 
 # 📊 Data & Analytics
 - name: Plausible
@@ -106,6 +127,13 @@
   replaces: Semrush
   note: No license file found in the repo — verify before publishing.
 
+- name: Grafana
+  url: https://github.com/grafana/grafana
+  description: "Open and composable observability platform: dashboards for metrics, logs and traces."
+  license: AGPL-3.0
+  category: Data & Analytics
+  replaces: Datadog (for dashboards)
+
 # 🎨 Design & Creativity
 - name: Fooocus
   url: https://github.com/lllyasviel/Fooocus
@@ -141,6 +169,36 @@
   category: Design & Creativity
   replaces: Loom
 
+- name: Inkscape
+  url: https://github.com/inkscape/inkscape
+  description: Vector graphics editor for illustration, logos and diagrams.
+  license: GPL-3.0
+  category: Design & Creativity
+  replaces: Adobe Illustrator
+  note: GitHub repo is a mirror; canonical development is on GitLab.
+
+- name: Krita
+  url: https://github.com/KDE/krita
+  description: Free and open source digital painting studio for illustration, concept art and comics.
+  license: GPL-3.0
+  category: Design & Creativity
+  replaces: Photoshop (for painting)
+
+- name: Blender
+  url: https://github.com/blender/blender
+  description: "Full 3D creation suite: modeling, sculpting, animation and rendering."
+  license: GPL-3.0
+  category: Design & Creativity
+  replaces: Maya/3ds Max
+
+- name: PhotoCraft
+  url: https://github.com/storytold/photocraft
+  description: Open-source photo editor written from scratch in Rust; flagship of the ArtCraft suite of Adobe alternatives.
+  license: Apache-2.0
+  category: Design & Creativity
+  replaces: Photoshop
+  note: Young project (first released Sept 2026); still alpha, impressive but rough at the edges.
+
 # 🎙️ Audio & Voice
 - name: FluidVoice
   url: https://github.com/altic-dev/FluidVoice
@@ -163,6 +221,13 @@
   license: MIT
   category: Audio & Voice
   replaces: Wispr Flow
+
+- name: Audacity
+  url: https://github.com/audacity/audacity
+  description: Classic open-source audio editor for recording and editing.
+  license: GPL-2.0
+  category: Audio & Voice
+  replaces: Adobe Audition
 
 # 📄 Spec-Driven Development
 - name: GitHub Spec Kit
@@ -192,12 +257,33 @@
   category: Workflow & Automation
   replaces: Calendly
 
+- name: Home Assistant
+  url: https://github.com/home-assistant/core
+  description: Open source home automation that puts local control and privacy first.
+  license: Apache-2.0
+  category: Workflow & Automation
+  replaces: SmartThings/Google Home (local)
+
 # 🔐 Security & Privacy
 - name: Bitwarden
   url: https://github.com/bitwarden/server
   description: Open-source password manager for securely storing and managing credentials.
   license: GPL-3.0
   category: Security & Privacy
+
+- name: Pi-hole
+  url: https://github.com/pi-hole/pi-hole
+  description: Network-wide ad blocking for your whole home network.
+  license: EUPL-1.2
+  category: Security & Privacy
+  replaces: browser ad-blockers (network-wide)
+
+- name: Vaultwarden
+  url: https://github.com/dani-garcia/vaultwarden
+  description: Unofficial lightweight Bitwarden-compatible server written in Rust, for self-hosting your vault.
+  license: AGPL-3.0
+  category: Security & Privacy
+  replaces: hosted Bitwarden
 
 # 📝 Productivity & Collaboration
 - name: AppFlowy
@@ -242,3 +328,39 @@
   license: MIT
   category: Productivity & Collaboration
   replaces: Intercom
+
+- name: Joplin
+  url: https://github.com/laurent22/joplin
+  description: Privacy-focused note taking app with sync across phone and desktop.
+  license: AGPL-3.0
+  category: Productivity & Collaboration
+  replaces: Evernote
+
+- name: Excalidraw
+  url: https://github.com/excalidraw/excalidraw
+  description: Virtual whiteboard for sketching hand-drawn-like diagrams.
+  license: MIT
+  category: Productivity & Collaboration
+  replaces: Miro
+
+- name: Stirling PDF
+  url: https://github.com/Stirling-Tools/Stirling-PDF
+  description: Edit, merge, split, convert and secure PDFs on any device.
+  license: MIT
+  category: Productivity & Collaboration
+  replaces: Adobe Acrobat
+
+# 📸 Media & Self-Hosting
+- name: Immich
+  url: https://github.com/immich-app/immich
+  description: High performance self-hosted photo and video management.
+  license: AGPL-3.0
+  category: Media & Self-Hosting
+  replaces: Google Photos
+
+- name: Jellyfin
+  url: https://github.com/jellyfin/jellyfin
+  description: "Free software media system: stream your movies, shows and music anywhere."
+  license: GPL-2.0
+  category: Media & Self-Hosting
+  replaces: Plex
