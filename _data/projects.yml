@@ -98,6 +98,14 @@
   replaces: Firecrawl
   note: Includes anti-bot bypass features. Respect each site's terms and robots.txt.
 
+- name: OpenSEO
+  url: https://github.com/TahaHachana/OpenSEO
+  description: Open source SEO tool for rank tracking, backlinks and site audits.
+  license: Not stated
+  category: Data & Analytics
+  replaces: Semrush
+  note: No license file found in the repo — verify before publishing.
+
 # 🎨 Design & Creativity
 - name: Fooocus
   url: https://github.com/lllyasviel/Fooocus
@@ -118,6 +126,21 @@
   license: AGPL-3.0
   category: Design & Creativity
 
+- name: Open Higgsfield
+  url: https://github.com/wide-trace/open-higgsfield
+  description: A studio for image and video generation — one prompt bar, each model's own settings, and every finished run in one gallery.
+  license: Not stated
+  category: Design & Creativity
+  replaces: Higgsfield
+  note: No license file found in the repo — verify before publishing.
+
+- name: Cap
+  url: https://github.com/CapSoftware/Cap
+  description: Open source Loom alternative. Beautiful, shareable screen recordings.
+  license: AGPL-3.0
+  category: Design & Creativity
+  replaces: Loom
+
 # 🎙️ Audio & Voice
 - name: FluidVoice
   url: https://github.com/altic-dev/FluidVoice
@@ -127,14 +150,19 @@
   replaces: Granola, Wispr Flow
   note: macOS only. The optional AI-enhancement model is closed source.
 
-# VERIFY before publishing: several copies of this project exist. Confirm this is the original repo and its license.
-- name: OmniVoice Studio
-  url: https://github.com/debpalash/OmniVoice-Studio
-  description: Local voice cloning, voice design, video dubbing and audiobooks in 646 languages, with no API keys.
+- name: VoiceStudio
+  url: https://github.com/debpalash/VoiceStudio
+  description: Open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages.
   license: AGPL-3.0
   category: Audio & Voice
   replaces: ElevenLabs
-  note: In active beta.
+
+- name: OpenWhispr
+  url: https://github.com/OpenWhispr/openwhispr
+  description: Voice-to-text dictation app with local and cloud models. Privacy-first and cross-platform.
+  license: MIT
+  category: Audio & Voice
+  replaces: Wispr Flow
 
 # 📄 Spec-Driven Development
 - name: GitHub Spec Kit
@@ -157,9 +185,9 @@
   category: Workflow & Automation
   note: Fair-code, source-available licence (not OSI-approved open source).
 
-- name: cal.diy
-  url: https://github.com/calcom/diy
-  description: Fully open-source scheduling platform — the Calendly alternative.
+- name: Cal.com
+  url: https://github.com/calcom/cal.com
+  description: Scheduling infrastructure for absolutely everyone.
   license: MIT
   category: Workflow & Automation
   replaces: Calendly
@@ -200,3 +228,17 @@
   category: Productivity & Collaboration
   replaces: Slack
   note: Early-stage; mobile clients were reported unfinished at launch.
+
+- name: OpenProject
+  url: https://github.com/opf/openproject
+  description: Leading open source project management software with agile planning, issue tracking, roadmaps, Gantt charts and time tracking.
+  license: GPL-3.0
+  category: Productivity & Collaboration
+  replaces: Asana
+
+- name: Chatwoot
+  url: https://github.com/chatwoot/chatwoot
+  description: Open-source live-chat, email support and omni-channel desk.
+  license: MIT
+  category: Productivity & Collaboration
+  replaces: Intercom
