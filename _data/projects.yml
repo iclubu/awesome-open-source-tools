@@ -4,12 +4,14 @@
   url: https://github.com/Significant-Gravitas/AutoGPT
   description: Autonomous AI agents that break down complex goals into executable tasks without human intervention.
   license: MIT
+  updated: 2026-08-05
   category: AI & LLMs
 
 - name: FreeLLMAPI
   url: https://github.com/tashfeenahmed/freellmapi
   description: One OpenAI-compatible endpoint that routes across many free LLM provider tiers, with automatic failover when one runs out.
   license: MIT
+  updated: 2026-10-14
   category: AI & LLMs
   replaces: Paid LLM API usage (partly)
   note: "Meant for personal projects and experimentation, not for bundling into a product you ship. Does not include Anthropic models."
@@ -18,18 +20,21 @@
   url: https://github.com/langchain-ai/langchain
   description: The leading framework for building LLM-powered applications with chains, agents, and RAG capabilities.
   license: MIT
+  updated: 2026-08-05
   category: AI & LLMs
 
 - name: Ollama
   url: https://github.com/ollama/ollama
   description: Run large language models locally with ease — like Docker for LLMs.
   license: MIT
+  updated: 2026-08-05
   category: AI & LLMs
 
 - name: Open WebUI
   url: https://github.com/open-webui/open-webui
   description: User-friendly AI chat interface that plugs into Ollama and OpenAI-compatible APIs.
   license: Custom Open WebUI License
+  updated: 2026-10-25
   category: AI & LLMs
   replaces: ChatGPT web UI (self-hosted)
   note: Source-available under its own license, not OSI-approved open source.
@@ -39,12 +44,14 @@
   url: https://github.com/anomalyco/opencode
   description: The most-starred open-source coding agent — a terminal-based AI pair programmer with 75+ model providers.
   license: MIT
+  updated: 2026-10-14
   category: AI & LLMs
 
 - name: Whisper
   url: https://github.com/openai/whisper
   description: OpenAI's general-purpose speech recognition model for multilingual transcription.
   license: MIT
+  updated: 2026-08-05
   category: AI & LLMs
 
 
@@ -54,30 +61,35 @@
   url: https://github.com/moby/moby
   description: The open-source containerization engine that revolutionized how we build, ship, and run applications.
   license: Apache-2.0
+  updated: 2026-08-05
   category: Developer Tools
 
 - name: Kubernetes
   url: https://github.com/kubernetes/kubernetes
   description: Industry-standard container orchestration platform originally built by Google, now CNCF-hosted.
   license: Apache-2.0
+  updated: 2026-08-05
   category: Developer Tools
 
 - name: LazyGit
   url: https://github.com/jesseduffield/lazygit
   description: Simple terminal UI for git commands.
   license: MIT
+  updated: 2026-10-25
   category: Developer Tools
 
 - name: Next.js
   url: https://github.com/vercel/next.js
   description: The most popular React framework for production with server-side rendering and static site generation.
   license: MIT
+  updated: 2026-08-05
   category: Developer Tools
 
 - name: REA
   url: https://github.com/morluto/rea
   description: Reverse engineer anything with agents, from app behavior down to native binaries.
   license: MIT
+  updated: 2026-10-25
   category: Developer Tools
   replaces: manual Ghidra/IDA workflows
 
@@ -85,12 +97,14 @@
   url: https://github.com/microsoft/vscode
   description: The world's most popular open-source code editor with built-in Git, debugging, and a massive extension ecosystem.
   license: MIT
+  updated: 2026-08-05
   category: Developer Tools
 
 - name: yt-dlp
   url: https://github.com/yt-dlp/yt-dlp
   description: A powerful command-line audio/video downloader supporting thousands of sites.
   license: Unlicense
+  updated: 2026-08-05
   category: Developer Tools
 
 
@@ -100,6 +114,7 @@
   url: https://github.com/elastic/elasticsearch
   description: Distributed RESTful search and analytics engine powering log analysis, full-text search, and more.
   license: Elastic License 2.0
+  updated: 2026-08-05
   category: Data & Analytics
   note: Source-available licence (not OSI-approved open source).
 
@@ -107,6 +122,7 @@
   url: https://github.com/grafana/grafana
   description: "Open and composable observability platform: dashboards for metrics, logs and traces."
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Data & Analytics
   replaces: Datadog (for dashboards)
 
@@ -114,6 +130,7 @@
   url: https://github.com/TahaHachana/OpenSEO
   description: Open source SEO tool for rank tracking, backlinks and site audits.
   license: Not stated
+  updated: 2026-10-25
   category: Data & Analytics
   replaces: Semrush
   note: No license file found in the repo — verify before publishing.
@@ -122,6 +139,7 @@
   url: https://github.com/plausible/analytics
   description: Lightweight, privacy-friendly alternative to Google Analytics.
   license: MIT
+  updated: 2026-08-05
   category: Data & Analytics
   replaces: Google Analytics
 
@@ -129,12 +147,14 @@
   url: https://github.com/postgres/postgres
   description: The world's most advanced open-source relational database — the foundation for countless applications.
   license: PostgreSQL License
+  updated: 2026-08-05
   category: Data & Analytics
 
 - name: Scrapling
   url: https://github.com/D4Vinci/Scrapling
   description: Adaptive Python web-scraping framework with stealth fetchers and a built-in MCP server for feeding web data to AI agents.
   license: BSD-3-Clause
+  updated: 2026-10-14
   category: Data & Analytics
   replaces: Firecrawl
   note: Includes anti-bot bypass features. Respect each site's terms and robots.txt.
@@ -146,6 +166,7 @@
   url: https://github.com/blender/blender
   description: "Full 3D creation suite: modeling, sculpting, animation and rendering."
   license: GPL-3.0
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Maya/3ds Max
 
@@ -153,6 +174,7 @@
   url: https://github.com/CapSoftware/Cap
   description: Open source Loom alternative. Beautiful, shareable screen recordings.
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Loom
 
@@ -160,12 +182,14 @@
   url: https://github.com/lllyasviel/Fooocus
   description: Offline, open-source image generation that rethinks Stable Diffusion.
   license: MIT
+  updated: 2026-08-05
   category: Design & Creativity
 
 - name: Inkscape
   url: https://github.com/inkscape/inkscape
   description: Vector graphics editor for illustration, logos and diagrams.
   license: GPL-3.0
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Adobe Illustrator
   note: GitHub repo is a mirror; canonical development is on GitLab.
@@ -174,6 +198,7 @@
   url: https://github.com/KDE/krita
   description: Free and open source digital painting studio for illustration, concept art and comics.
   license: GPL-3.0
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Photoshop (for painting)
 
@@ -181,6 +206,7 @@
   url: https://github.com/wide-trace/open-higgsfield
   description: A studio for image and video generation — one prompt bar, each model's own settings, and every finished run in one gallery.
   license: Not stated
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Higgsfield
   note: No license file found in the repo — verify before publishing.
@@ -189,6 +215,7 @@
   url: https://github.com/penpot/penpot
   description: Open-source design and prototyping platform — the Figma alternative.
   license: MIT
+  updated: 2026-08-05
   category: Design & Creativity
   replaces: Figma
 
@@ -196,6 +223,7 @@
   url: https://github.com/storytold/photocraft
   description: Open-source photo editor written from scratch in Rust; flagship of the ArtCraft suite of Adobe alternatives.
   license: Apache-2.0
+  updated: 2026-10-25
   category: Design & Creativity
   replaces: Photoshop
   note: Young project (first released Sept 2026); still alpha, impressive but rough at the edges.
@@ -204,6 +232,7 @@
   url: https://github.com/upscayl/upscayl
   description: Free and open-source AI image upscaler that enhances low-resolution images without losing quality.
   license: AGPL-3.0
+  updated: 2026-08-06
   category: Design & Creativity
 
 
@@ -213,6 +242,7 @@
   url: https://github.com/audacity/audacity
   description: Classic open-source audio editor for recording and editing.
   license: GPL-2.0
+  updated: 2026-10-25
   category: Audio & Voice
   replaces: Adobe Audition
 
@@ -220,6 +250,7 @@
   url: https://github.com/altic-dev/FluidVoice
   description: Free, private voice dictation for macOS that runs on-device, with a newer meeting-notes feature.
   license: GPL-3.0
+  updated: 2026-10-14
   category: Audio & Voice
   replaces: Granola, Wispr Flow
   note: macOS only. The optional AI-enhancement model is closed source.
@@ -228,6 +259,7 @@
   url: https://github.com/OpenWhispr/openwhispr
   description: Voice-to-text dictation app with local and cloud models. Privacy-first and cross-platform.
   license: MIT
+  updated: 2026-10-25
   category: Audio & Voice
   replaces: Wispr Flow
 
@@ -235,6 +267,7 @@
   url: https://github.com/debpalash/VoiceStudio
   description: Open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages.
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Audio & Voice
   replaces: ElevenLabs
 
@@ -245,12 +278,14 @@
   url: https://github.com/speclib/awesome-openspec
   description: A curated list of awesome OpenSpec resources, tools, and Spec-Driven Development (SDD) resources for AI coding assistants.
   license: MIT
+  updated: 2026-08-06
   category: Spec-Driven Development
 
 - name: GitHub Spec Kit
   url: https://github.com/github/spec-kit
   description: GitHub's open-source toolkit for Spec-Driven Development — define what to build before building it with any AI coding agent.
   license: MIT
+  updated: 2026-08-06
   category: Spec-Driven Development
 
 
@@ -260,6 +295,7 @@
   url: https://github.com/calcom/cal.com
   description: Scheduling infrastructure for absolutely everyone.
   license: MIT
+  updated: 2026-10-25
   category: Workflow & Automation
   replaces: Calendly
 
@@ -267,6 +303,7 @@
   url: https://github.com/home-assistant/core
   description: Open source home automation that puts local control and privacy first.
   license: Apache-2.0
+  updated: 2026-10-25
   category: Workflow & Automation
   replaces: SmartThings/Google Home (local)
 
@@ -274,6 +311,7 @@
   url: https://github.com/n8n-io/n8n
   description: Fair-code workflow automation with native AI capabilities and 1500+ integrations.
   license: Sustainable Use License
+  updated: 2026-08-05
   category: Workflow & Automation
   note: Fair-code, source-available licence (not OSI-approved open source).
 
@@ -284,12 +322,14 @@
   url: https://github.com/bitwarden/server
   description: Open-source password manager for securely storing and managing credentials.
   license: GPL-3.0
+  updated: 2026-08-05
   category: Security & Privacy
 
 - name: Pi-hole
   url: https://github.com/pi-hole/pi-hole
   description: Network-wide ad blocking for your whole home network.
   license: EUPL-1.2
+  updated: 2026-10-25
   category: Security & Privacy
   replaces: browser ad-blockers (network-wide)
 
@@ -297,6 +337,7 @@
   url: https://github.com/dani-garcia/vaultwarden
   description: Unofficial lightweight Bitwarden-compatible server written in Rust, for self-hosting your vault.
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Security & Privacy
   replaces: hosted Bitwarden
 
@@ -307,6 +348,7 @@
   url: https://github.com/AppFlowy-IO/AppFlowy
   description: AI-powered collaborative workspace — the open-source Notion alternative.
   license: MIT
+  updated: 2026-08-05
   category: Productivity & Collaboration
   replaces: Notion
 
@@ -314,6 +356,7 @@
   url: https://github.com/basicmachines-co/basic-memory
   description: Local-first memory for AI agents, stored as plain Markdown files you own, with wiki links, search and MCP access.
   license: AGPL-3.0
+  updated: 2026-10-14
   category: Productivity & Collaboration
   replaces: Notion (as agent memory)
 
@@ -321,6 +364,7 @@
   url: https://github.com/block/buzz
   description: Self-hostable team chat from Block where AI agents are full members alongside people, with Git hosting built in.
   license: Apache-2.0
+  updated: 2026-10-14
   category: Productivity & Collaboration
   replaces: Slack
   note: Early-stage; mobile clients were reported unfinished at launch.
@@ -329,6 +373,7 @@
   url: https://github.com/chatwoot/chatwoot
   description: Open-source live-chat, email support and omni-channel desk.
   license: MIT
+  updated: 2026-10-25
   category: Productivity & Collaboration
   replaces: Intercom
 
@@ -336,6 +381,7 @@
   url: https://github.com/excalidraw/excalidraw
   description: Virtual whiteboard for sketching hand-drawn-like diagrams.
   license: MIT
+  updated: 2026-10-25
   category: Productivity & Collaboration
   replaces: Miro
 
@@ -343,6 +389,7 @@
   url: https://github.com/laurent22/joplin
   description: Privacy-focused note taking app with sync across phone and desktop.
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Productivity & Collaboration
   replaces: Evernote
 
@@ -350,6 +397,7 @@
   url: https://github.com/opf/openproject
   description: Leading open source project management software with agile planning, issue tracking, roadmaps, Gantt charts and time tracking.
   license: GPL-3.0
+  updated: 2026-10-25
   category: Productivity & Collaboration
   replaces: Asana
 
@@ -357,6 +405,7 @@
   url: https://github.com/paperclipai/paperclip
   description: Open-source orchestration for teams of AI agents — org charts, budgets, tickets and governance for humans and agents working together.
   license: MIT
+  updated: 2026-10-14
   category: Productivity & Collaboration
   replaces: Jira
 
@@ -364,6 +413,7 @@
   url: https://github.com/Stirling-Tools/Stirling-PDF
   description: Edit, merge, split, convert and secure PDFs on any device.
   license: MIT
+  updated: 2026-10-25
   category: Productivity & Collaboration
   replaces: Adobe Acrobat
 
@@ -374,6 +424,7 @@
   url: https://github.com/immich-app/immich
   description: High performance self-hosted photo and video management.
   license: AGPL-3.0
+  updated: 2026-10-25
   category: Media & Self-Hosting
   replaces: Google Photos
 
@@ -381,5 +432,6 @@
   url: https://github.com/jellyfin/jellyfin
   description: "Free software media system: stream your movies, shows and music anywhere."
   license: GPL-2.0
+  updated: 2026-10-25
   category: Media & Self-Hosting
   replaces: Plex
