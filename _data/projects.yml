@@ -130,10 +130,10 @@
   url: https://github.com/TahaHachana/OpenSEO
   description: Open source SEO tool for rank tracking, backlinks and site audits.
   license: Not stated
-  updated: 2026-10-25
+  updated: 2026-11-08
   category: Data & Analytics
   replaces: Semrush
-  note: No license file found in the repo — verify before publishing.
+  note: Repo last updated 2016-01-02 (251 stars) — effectively abandoned, no license. Not a viable modern Semrush replacement; kept in the list with this warning.
 
 - name: Plausible
   url: https://github.com/plausible/analytics
@@ -201,6 +201,15 @@
   updated: 2026-10-25
   category: Design & Creativity
   replaces: Photoshop (for painting)
+
+- name: Open Generative AI
+  url: https://github.com/Anil-matcha/Open-Generative-AI
+  description: Free, open-source AI image, video, cinema and lip-sync studio with 200+ models — no subscription, no content filters.
+  license: MIT
+  updated: 2026-11-08
+  category: Design & Creativity
+  replaces: Higgsfield
+  note: The app is free, but cloud generations run through the MuAPI gateway and cost per call — bring your own key. Local models (sd.cpp, Wan2GP) are free but need a GPU. Not the same as Open Higgsfield (wide-trace/open-higgsfield), which is a separate, smaller studio that connects to Higgsfield's own API.
 
 - name: Open Higgsfield
   url: https://github.com/wide-trace/open-higgsfield
@@ -292,10 +301,10 @@
 # ⚙️ Workflow & Automation
 
 - name: Cal.com
-  url: https://github.com/calcom/cal.com
+  url: https://github.com/calcom/cal.diy
   description: Scheduling infrastructure for absolutely everyone.
   license: MIT
-  updated: 2026-10-25
+  updated: 2026-11-08
   category: Workflow & Automation
   replaces: Calendly
 
@@ -347,8 +356,8 @@
 - name: AppFlowy
   url: https://github.com/AppFlowy-IO/AppFlowy
   description: AI-powered collaborative workspace — the open-source Notion alternative.
-  license: MIT
-  updated: 2026-08-05
+  license: AGPL-3.0
+  updated: 2026-11-08
   category: Productivity & Collaboration
   replaces: Notion
 
