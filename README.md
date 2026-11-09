@@ -68,7 +68,7 @@ The live site includes several interactive features to make browsing easy and en
 | --- | --- | --- |
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | Distributed RESTful search and analytics engine powering log analysis, full-text search, and more. | Elastic License 2.0 |
 | **[Grafana](https://github.com/grafana/grafana)** | Open and composable observability platform: dashboards for metrics, logs and traces. *Replaces: Datadog (for dashboards).* | AGPL-3.0 |
-| **[OpenSEO](https://github.com/TahaHachana/OpenSEO)** | Open source SEO tool for rank tracking, backlinks and site audits. *Replaces: Semrush.* | Not stated |
+| **[OpenSEO](https://github.com/every-app/open-seo)** | Open source SEO tool for rank tracking, backlinks and site audits. *Replaces: Semrush.* App is free, but SEO data needs a DataForSEO key (min $50 top-up). | MIT |
 | **[Plausible](https://github.com/plausible/analytics)** | Lightweight, privacy-friendly alternative to Google Analytics. *Replaces: Google Analytics.* | MIT |
 | **[PostgreSQL](https://github.com/postgres/postgres)** | The world's most advanced open-source relational database — the foundation for countless applications. | PostgreSQL License |
 | **[Scrapling](https://github.com/D4Vinci/Scrapling)** | Adaptive Python web-scraping framework with stealth fetchers and a built-in MCP server for feeding web data to AI agents. *Replaces: Firecrawl.* | BSD-3-Clause |
