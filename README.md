@@ -25,12 +25,12 @@ The live site includes several interactive features to make browsing easy and en
 
 ## 📋 The List
 
-*Last updated: October 25, 2026 — 52 tools across 10 categories.*
+*Last updated: November 8, 2026 — 53 tools across 10 categories.*
 
 - [AI & LLMs (7)](#ai--llms)
 - [Developer Tools (7)](#developer-tools)
 - [Data & Analytics (6)](#data--analytics)
-- [Design & Creativity (9)](#design--creativity)
+- [Design & Creativity (10)](#design--creativity)
 - [Audio & Voice (4)](#audio--voice)
 - [Spec-Driven Development (2)](#spec-driven-development)
 - [Workflow & Automation (3)](#workflow--automation)
@@ -82,6 +82,7 @@ The live site includes several interactive features to make browsing easy and en
 | **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT |
 | **[Inkscape](https://github.com/inkscape/inkscape)** | Vector graphics editor for illustration, logos and diagrams. *Replaces: Adobe Illustrator.* | GPL-3.0 |
 | **[Krita](https://github.com/KDE/krita)** | Free and open source digital painting studio for illustration, concept art and comics. *Replaces: Photoshop (for painting).* | GPL-3.0 |
+| **[Open Generative AI](https://github.com/Anil-matcha/Open-Generative-AI)** | Free, open-source AI image, video, cinema and lip-sync studio with 200+ models — no subscription, no content filters. *Replaces: Higgsfield.* Cloud generations run through MuAPI and cost per call (bring your own key); local models are free but need a GPU. | MIT |
 | **[Open Higgsfield](https://github.com/wide-trace/open-higgsfield)** | A studio for image and video generation — one prompt bar, each model's own settings, and every finished run in one gallery. *Replaces: Higgsfield.* | Not stated |
 | **[Penpot](https://github.com/penpot/penpot)** | Open-source design and prototyping platform — the Figma alternative. *Replaces: Figma.* | MIT |
 | **[PhotoCraft](https://github.com/storytold/photocraft)** | Open-source photo editor written from scratch in Rust; flagship of the ArtCraft suite of Adobe alternatives. *Replaces: Photoshop.* | Apache-2.0 |
@@ -107,7 +108,7 @@ The live site includes several interactive features to make browsing easy and en
 
 | Tool | Description | License |
 | --- | --- | --- |
-| **[Cal.com](https://github.com/calcom/cal.com)** | Scheduling infrastructure for absolutely everyone. *Replaces: Calendly.* | MIT |
+| **[Cal.com](https://github.com/calcom/cal.diy)** | Scheduling infrastructure for absolutely everyone. *Replaces: Calendly.* | MIT |
 | **[Home Assistant](https://github.com/home-assistant/core)** | Open source home automation that puts local control and privacy first. *Replaces: SmartThings/Google Home (local).* | Apache-2.0 |
 | **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with native AI capabilities and 1500+ integrations. | Sustainable Use License |
 
@@ -123,7 +124,7 @@ The live site includes several interactive features to make browsing easy and en
 
 | Tool | Description | License |
 | --- | --- | --- |
-| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. *Replaces: Notion.* | MIT |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | AI-powered collaborative workspace — the open-source Notion alternative. *Replaces: Notion.* | AGPL-3.0 |
 | **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** | Local-first memory for AI agents, stored as plain Markdown files you own, with wiki links, search and MCP access. *Replaces: Notion (as agent memory).* | AGPL-3.0 |
 | **[Buzz](https://github.com/block/buzz)** | Self-hostable team chat from Block where AI agents are full members alongside people, with Git hosting built in. *Replaces: Slack.* | Apache-2.0 |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Open-source live-chat, email support and omni-channel desk. *Replaces: Intercom.* | MIT |
