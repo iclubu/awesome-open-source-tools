@@ -127,13 +127,13 @@
   replaces: Datadog (for dashboards)
 
 - name: OpenSEO
-  url: https://github.com/TahaHachana/OpenSEO
-  description: Open source SEO tool for rank tracking, backlinks and site audits.
-  license: Not stated
+  url: https://github.com/every-app/open-seo
+  description: Open source alternative to Semrush and Ahrefs — keyword research, rank tracking, backlinks, site audits and AI visibility, with an MCP server for AI agents.
+  license: MIT
   updated: 2026-11-08
   category: Data & Analytics
   replaces: Semrush
-  note: Repo last updated 2016-01-02 (251 stars) — effectively abandoned, no license. Not a viable modern Semrush replacement; kept in the list with this warning.
+  note: App is free (MIT), but it has no SEO data of its own — you need a DataForSEO API key (min $50 top-up; $1 free credit for new accounts). Hosted version at openseo.so is $10/mo including $10 usage. (Not the old TahaHachana/OpenSEO repo, dead since 2016.)
 
 - name: Plausible
   url: https://github.com/plausible/analytics
