@@ -178,6 +178,15 @@
   category: Design & Creativity
   replaces: Loom
 
+- name: Concat
+  url: https://github.com/jub0t/Concat
+  description: Free, local-first video editor with auto-captions, text-to-speech, voice cloning, background removal, keyframes and 4K export — no account, no watermark, no upload.
+  license: AGPL-3.0
+  updated: 2026-11-21
+  category: Design & Creativity
+  replaces: CapCut
+  note: "In beta (v0.2.12); Windows/macOS builds are unsigned and the iOS build is sideload-only."
+
 - name: Fooocus
   url: https://github.com/lllyasviel/Fooocus
   description: Offline, open-source image generation that rethinks Stable Diffusion.
