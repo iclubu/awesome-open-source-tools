@@ -25,12 +25,12 @@ The live site includes several interactive features to make browsing easy and en
 
 ## 📋 The List
 
-*Last updated: November 8, 2026 — 53 tools across 10 categories.*
+*Last updated: November 21, 2026 — 54 tools across 10 categories.*
 
 - [AI & LLMs (7)](#ai--llms)
 - [Developer Tools (7)](#developer-tools)
 - [Data & Analytics (6)](#data--analytics)
-- [Design & Creativity (10)](#design--creativity)
+- [Design & Creativity (11)](#design--creativity)
 - [Audio & Voice (4)](#audio--voice)
 - [Spec-Driven Development (2)](#spec-driven-development)
 - [Workflow & Automation (3)](#workflow--automation)
@@ -79,6 +79,7 @@ The live site includes several interactive features to make browsing easy and en
 | --- | --- | --- |
 | **[Blender](https://github.com/blender/blender)** | Full 3D creation suite: modeling, sculpting, animation and rendering. *Replaces: Maya/3ds Max.* | GPL-3.0 |
 | **[Cap](https://github.com/CapSoftware/Cap)** | Open source Loom alternative. Beautiful, shareable screen recordings. *Replaces: Loom.* | AGPL-3.0 |
+| **[Concat](https://github.com/jub0t/Concat)** | Free, local-first video editor with auto-captions, text-to-speech, voice cloning, background removal, keyframes and 4K export — no account, no watermark, no upload. *Replaces: CapCut.* | AGPL-3.0 |
 | **[Fooocus](https://github.com/lllyasviel/Fooocus)** | Offline, open-source image generation that rethinks Stable Diffusion. | MIT |
 | **[Inkscape](https://github.com/inkscape/inkscape)** | Vector graphics editor for illustration, logos and diagrams. *Replaces: Adobe Illustrator.* | GPL-3.0 |
 | **[Krita](https://github.com/KDE/krita)** | Free and open source digital painting studio for illustration, concept art and comics. *Replaces: Photoshop (for painting).* | GPL-3.0 |
